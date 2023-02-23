@@ -13,5 +13,11 @@ namespace versioneg{
         {
             return Ok("Get method from Employee v1 controller");
         }
+
+        [HttpPost]
+        public IActionResult AddEmp()
+        {
+            return Ok();
+        }
     }
 }
